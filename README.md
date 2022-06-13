@@ -4,6 +4,7 @@
 #### Its very small shell scrip and it also keeps a archived version but if internet is available it gets the online one
 
 #### To install use this comman
+#### Must Install "jq" (it should be in ur repo) this this comman with your pkg mannager ``` sudo pacman -S jq ```
 ```bash
 sudo curl "https://raw.githubusercontent.com/sakibulxyz/salah/main/salah" -o /usr/bin/salah && sudo chmod +x /usr/bin/salah
 ```
