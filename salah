@@ -11,7 +11,7 @@ js="$path/js"
 tmt="$path/tmt"
 tm="$path/tm"
 
-[ ! -e "$path" ] && mkdir "$path" && printf " New file created \n\n"
+[ ! -e "$path" ] && mkdir -p "$path" && printf " New file created \n\n"
 
 if [ ! -e "$location" ] || [ "$1" = "-c" ]
 	then
